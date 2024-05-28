@@ -17,11 +17,9 @@ You need clang or gcc >=4.7. You also need to install:
         libswscale-dev libgflags-dev libgoogle-glog-dev ragel
 
 ## Installation
-
-    wget https://github.com/jart/hiptext/releases/download/0.2/hiptext-0.2.tar.gz
-    tar xvzf hiptext-0.2.tar.gz
-    cd hiptext-0.2
-
+    git clone https://github.com/jart/hiptext
+    cd hiptext
+    ./autogen.sh
     ./configure
     make -j4
     sudo make install
